@@ -1,0 +1,38 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #baf7e2;
+}
+
+.title {
+    color: #333333;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.timer {
+    font-size: 18px;
+    color: #333333;
+    margin: 0px 20px;
+    font-weight: 500;
+}
+.timer span{
+    font-weight: bold;
+    color: #002b4e;
+}
+@media (max-width:576px){
+    .title {
+        margin: 0px 10px;
+        font-size: 24px;
+    }
+    .timer {
+    
+        font-size: 14px;
+        margin: 0px 10px;
+       
+    }
+}
